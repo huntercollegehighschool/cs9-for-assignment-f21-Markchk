@@ -19,3 +19,12 @@ Enter the height: 3
 """
 
 #write your code here 
+base = int(input("Enter the base: "))
+height = int(input("Enter the height"))
+square=''
+row = ''
+for x in range(1, base +1):
+  row = row +'*'
+for y in range(1, height +1):
+  square= square + f'\n {row}'
+print(square)
